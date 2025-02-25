@@ -1,0 +1,39 @@
+
+Présentation d'une architecture Model Vue Controler (MVC) avec un objet de connexion PDO.
+
+Tout le code est commenté
+
+==> Tester avec la vm LAMP d'Ubuntu Server. Le dossier "mvc" dans : c:\www\mvc
+
+------------
+Installation
+------------
+
+Les paramètres de connexion au SGBDR sont stockés dans :
+
+./model/dbParam.php
+
+
+L'installation de la base et peuplement de la table est automatique, gérée depuis : 
+
+./controler/setup.php
+
+
+Le routage est directement géré dans le contrôleur principal :
+-> index.php
+
+--------
+Principe 
+--------
+
+Compréhension de l'implémentation du métier : "user"
+
+./controler/user.php
+./model/user.php
+./vue/user.php
+
+1/ Lecture et affichage d'une base de données (READ)
+
+2/ Mise à jour (UPDATE) des données via AJAX (JQuery/JavaScript).
+
+Reste le CREATE et DELETE, non implémenté dans le dao actuel.

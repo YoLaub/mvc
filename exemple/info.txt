@@ -1,0 +1,17 @@
+
+------------------------------------------------------------
+
+Exemples du MVC avec un seul objet de connexion PDO, update.
+- Une version simple sans AJAX => mvc_form.zip
+- Une autre version avec AJAX => mvc_ajax.zip
+Requis : LAMP / XAMP avec PHP 8.1+
+Tout est commenté. 
+
+Installation :
+Voir le fichier inclus : INFO.txt
+Base et table générées automatiquement.
+
+clients_tbl.sql : importer dans PhpMyAdmin si la base 
+ne peut être créée avec l'application MCV !
+
+------------------------------------------------------------

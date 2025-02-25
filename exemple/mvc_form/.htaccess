@@ -1,0 +1,7 @@
+
+AddHandler php81 .php
+
+Options -Indexes
+
+RewriteEngine On
+RewriteRule ^(controler|model|vue) - [R=403,L]

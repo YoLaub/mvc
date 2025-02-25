@@ -1,0 +1,30 @@
+---------------------------------------------------------
+Architecture MVC (Modele Vue Controleur) pour PHP
+---------------------------------------------------------
+
+Ces TP sont présentés ici sous 2 formats de fichiers :
+
+-> Format DOC (Word)
+-> Format PDF
+
+Document à lire en premier :
+--> Architecture MVC PHP - Presentation
+
+Et une progression qui traite des thèmes suivants :
+
+--> Architecture MVC PHP - TP1 Generalites
+--> Architecture MVC PHP - TP2 Controleur
+--> Architecture MVC PHP - TP3 Vue
+--> Architecture MVC PHP - TP4 Modele
+--> Architecture MVC PHP - TP5 Controleur principal et routage
+
+Toutes les questions ne sont pas forcément à répondre pour la progression pédagogique.
+Tenter d'y répondre est cependant une excellente démarche pour renforcer les acquis.
+
+Il s'agit principalement de construire et comprendre l'architecture MVC
+d'une application WEB avec PHP, et donc, obtenir des résultats fonctionnels.
+
+Il s'agira également de poursuivre les TP en dehors des temps de formation.
+Le temps alloué étant insuffisant.
+
+URL du site proposé dans ce cours : https://dev.sio56.org/kercode/

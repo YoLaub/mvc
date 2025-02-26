@@ -33,4 +33,9 @@ if ( $_SERVER["SCRIPT_FILENAME"] == str_replace(DIRECTORY_SEPARATOR, '/',  __FIL
     <br /><br />
     <input type="submit" value="Rechercher" />
 
+    <?php
+echo print_r($_POST);
+
+    ?>
+
 </form>

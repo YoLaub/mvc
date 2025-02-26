@@ -6,12 +6,11 @@ if ( $_SERVER["SCRIPT_FILENAME"] == str_replace(DIRECTORY_SEPARATOR, '/',  __FIL
 }
 
 ?>
-<h1>Connexion</h1>
+<h1>Inscription Réussie</h1>
 
-Mon adresse électronique : <?= getMailULoggedOn() ?> <br />
+<h2>Bienvenue parmi nous cher gastronome</h2>
 
 
-
-<hr>
-
-<a href="./?action=deconnexion">se deconnecter</a>
+<a href="./?action=accueil">Accueil</a>
+<a href="./?action=profil">Profil</a>
+<a href="./?action=recherche">Recherche</a>

@@ -72,6 +72,12 @@ if ( $_SERVER["SCRIPT_FILENAME"] == str_replace(DIRECTORY_SEPARATOR, '/',  __FIL
 <?= $unResto['horairesR']; ?>
 
 
+<?php
+echo print_r($critiques)
+
+?>
+
+
 <h2 id="crit">Critiques</h2>
 
 <ul id="critiques">

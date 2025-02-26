@@ -10,3 +10,4 @@ if ( $_SERVER["SCRIPT_FILENAME"] == str_replace(DIRECTORY_SEPARATOR, '/',  __FIL
 Vous etes bien deconnecté
 <br />
 
+

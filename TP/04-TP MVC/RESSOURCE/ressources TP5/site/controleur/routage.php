@@ -9,12 +9,16 @@ function redirigeVers($action="defaut") {
 	
     $lesActions = array();
     $lesActions["defaut"] = "listeRestos.php";
+    $lesActions["accueil"] = "listeRestos.php";
     $lesActions["liste"] = "listeRestos.php";
     $lesActions["detail"] = "detailResto.php";
     $lesActions["recherche"] = "rechercheResto.php";
+    $lesActions["cgu"] = "cgu.php";
+    $lesActions["aimer"] = "aimer.php";
     $lesActions["connexion"] = "connexion.php";
     $lesActions["deconnexion"] = "deconnexion.php";
     $lesActions["profil"] = "monProfil.php";
+    $lesActions["inscription"] = "inscription.php";
 
 	$controler_id = $lesActions[$action];
 
